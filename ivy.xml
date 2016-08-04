@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info organisation="mobi.eyeline.mobi.bots" module="game15"/>
+    <!--publications>
+        <artifact type="source" ext="zip" name="game15-sources"/>
+        <artifact type="javadoc" ext="zip" name="game15-javadoc"/>
+        <artifact type="jar" ext="jar" name="game15"/>
+    </publications-->
+    <dependencies>
+        <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.0.+" transitive="false" />
+        <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.0.+" transitive="false"/>
+        <dependency org="org.apache.logging.log4j" name="log4j-1.2-api" rev="2.0.+" transitive="false"/>
+        <dependency org="mobi.eyeline.util" name="utils" rev="1.0.+"/>
+        <dependency org="mobi.eyeline.esdp" name="pvss" rev="3.0.+"/>
+        <dependency org="mobi.eyeline.utils" name="rest-client" rev="latest.integration"/>
+        <dependency org="com.eyelinecom.whoisd.pvss" name="pvss" rev="3.0.+"/>
+        <exclude org="log4j" module="log4j"/>
+    </dependencies>
+</ivy-module>
