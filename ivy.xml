@@ -7,9 +7,10 @@
         <artifact type="jar" ext="jar" name="game15"/>
     </publications-->
     <dependencies>
-        <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.0.+" transitive="false" />
-        <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.0.+" transitive="false"/>
-        <dependency org="org.apache.logging.log4j" name="log4j-1.2-api" rev="2.0.+" transitive="false"/>
+        <dependency org="log4j" name="log4j" rev="1.2.+" transitive="false"/>
+        <!--dependency org="org.apache.logging.log4j" name="log4j-api" rev="1.0.+" transitive="false" />
+        <dependency org="org.apache.logging.log4j" name="log4j-core" rev="1.0.+" transitive="false"/>
+        <dependency org="org.apache.logging.log4j" name="log4j-1.2-api" rev="2.0.+" transitive="false"/-->
         <dependency org="javax.el"          name="javax.el-api"          rev="3.0.0" conf="default"/>
         <dependency org="javax.servlet"     name="javax.servlet-api"     rev="3.1.0" conf="default"/>
         <dependency org="javax.servlet.jsp" name="javax.servlet.jsp-api" rev="2.3.1" conf="default"/>
@@ -17,6 +18,5 @@
         <dependency org="mobi.eyeline.esdp" name="pvss" rev="3.0.+"/>
         <dependency org="mobi.eyeline.utils" name="rest-client" rev="0.01"/>
         <!--dependency org="com.eyelinecom.whoisd.pvss" name="pvss" rev="3.0.+"/-->
-        <exclude org="log4j" module="log4j"/>
     </dependencies>
 </ivy-module>

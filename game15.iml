@@ -34,9 +34,7 @@
     <orderEntry type="module-library">
       <library name="IvyIDEA">
         <CLASSES>
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/jars/log4j-api-2.0.2.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/jars/log4j-core-2.0.2.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/bundles/log4j-1.2-api-2.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.el/javax.el-api/jars/javax.el-api-3.0.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet.jsp/javax.servlet.jsp-api/jars/javax.servlet.jsp-api-2.3.1.jar!/" />
@@ -45,9 +43,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.utils/rest-client/jars/rest-client-0.01.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/javadocs/log4j-api-2.0.2-javadoc.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/javadocs/log4j-core-2.0.2-javadoc.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/javadocs/log4j-1.2-api-2.0.2-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/javadocs/log4j-1.2.17-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.el/javax.el-api/javadocs/javax.el-api-3.0.0-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/javadocs/javax.servlet-api-3.1.0-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet.jsp/javax.servlet.jsp-api/javadocs/javax.servlet.jsp-api-2.3.1-javadoc.jar!/" />
@@ -55,9 +51,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/mobi.eyeline.esdp/pvss/javadocs/pvss-javadoc-3.0.13.zip!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-api/sources/log4j-api-2.0.2-sources.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-core/sources/log4j-core-2.0.2-sources.jar!/" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.logging.log4j/log4j-1.2-api/sources/log4j-1.2-api-2.0.2-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/sources/log4j-1.2.17-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.el/javax.el-api/sources/javax.el-api-3.0.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/javax.servlet-api/sources/javax.servlet-api-3.1.0-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet.jsp/javax.servlet.jsp-api/sources/javax.servlet.jsp-api-2.3.1-sources.jar!/" />
