@@ -6,6 +6,7 @@
         <artifact type="javadoc" ext="zip" name="game15-javadoc"/>
         <artifact type="jar" ext="jar" name="game15"/>
     </publications-->
+    
     <dependencies>
         <dependency org="log4j" name="log4j" rev="1.2.+" transitive="false"/>
         <!--dependency org="org.apache.logging.log4j" name="log4j-api" rev="1.0.+" transitive="false" />
