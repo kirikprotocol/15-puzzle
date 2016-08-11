@@ -2,7 +2,7 @@
   <artifact type="jar" name="bot15:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/bot15_jar</output-path>
     <root id="archive" name="bot15.jar">
-      <element id="module-output" name="bot15" />
+      <element id="module-output" name="game15" />
     </root>
   </artifact>
 </component>

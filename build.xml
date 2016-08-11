@@ -1,0 +1,11 @@
+<project name="build" default="build" basedir=".">
+  <property file="${basedir}/version.properties"/>
+  <include file="${basedir}/${project.path}/build-tools.xml" as="tools"/>
+  <target name="build" depends="tools.build"/>
+  <target name="distr" depends="tools.clear_ivy_cache, tools.resolve, tools.build, tools.prepare_exploded">
+    <copy todir="${exploded}/WEB-INF/lib">
+      <fileset dir="${basedir}/lib" includes="*.jar"/>
+    </copy>
+    <antcall target="tools.pack_war"/>
+  </target>
+</project>
