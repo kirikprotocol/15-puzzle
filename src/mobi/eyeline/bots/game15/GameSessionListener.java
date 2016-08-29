@@ -44,6 +44,8 @@ public class GameSessionListener implements HttpSessionListener, ServletContextL
                        ", exists: " + log4jprops.exists());
 
     PropertyConfigurator.configureAndWatch(log4jprops.getAbsolutePath(), TimeUnit.MINUTES.toMillis(1));
+
+    GameStore.init(configDir);
   }
 
   @Override

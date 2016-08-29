@@ -5,6 +5,8 @@ import static mobi.eyeline.utils.restclient.web.RestClient.*;
 import mobi.eyeline.utils.restclient.web.RestClient;
 import org.apache.log4j.Logger;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.*;
 
@@ -33,10 +35,18 @@ public class GameStore
   private static String   PERS_GAME_VAR;
   private static String   SESS_GAME_VAR;
 
-  public static void init() {
+  public static boolean init(String configDir)
+  {
     synchronized (storeSync) {
       if (!configured) {
-        ResourceBundle bundle = ResourceBundle.getBundle("config");
+        ResourceBundle bundle = null;
+        File configFile = new File(configDir, "config.properties");
+        try (FileInputStream fis = new FileInputStream(configFile)) {
+          bundle = new PropertyResourceBundle(fis);
+        } catch (IOException e) {
+          logger.warn("Failed to load Game15 config", e);
+          return false;
+        }
         maxGameActivityTime   = Integer.parseInt(bundle.getString("game.activity.time"));
         ANOTHER_GAMES_URL     = bundle.getString("another.games.url");
         REST_PERS_API_ROOT    = bundle.getString("api.root.pers");
@@ -47,6 +57,7 @@ public class GameStore
         configured = true;
       }
     }
+    return true;
   }
   public static int getMaxGameActivityTime() {
     return maxGameActivityTime;

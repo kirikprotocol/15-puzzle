@@ -11,7 +11,6 @@
     if (logger.isDebugEnabled()) {
         logger.debug("Subscriber: " + subscriber + ", action: " + action + ", URI=" + request.getRequestURI());
     }
-    GameStore.init();
 
     Game game = null; boolean NEW_GAME = false;
     if (!Game.isSubscriberValid(subscriber)) {
