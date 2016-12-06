@@ -6,9 +6,10 @@
 %>
 <%
     String user_id = request.getParameter("user_id");
-    String action = request.getParameter("action");
+    String action  = request.getParameter("action");
+    String gp_lang = request.getParameter("gp_lang");
     if (logger.isDebugEnabled()) {
-        logger.debug("user_id: " + user_id + ", action: " + action + ", URI=" + request.getRequestURI());
+        logger.debug("user_id: " + user_id + ", action: " + action + ", gp_lang: " + gp_lang + ". URI=" + request.getRequestURI());
     }
 
     Game game = null; boolean NEW_GAME = false;
@@ -20,7 +21,7 @@
             final String sessionId = request.getSession().getId();
             game = GameStore.getGame(user_id, sessionId);
             if (game == null) {
-                game = GameStore.newGame(user_id, sessionId);
+                game = GameStore.newGame(user_id, sessionId, gp_lang);
                 request.getSession().setAttribute("game", game);
                 NEW_GAME = true;
             }

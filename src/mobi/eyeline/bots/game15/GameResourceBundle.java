@@ -7,7 +7,10 @@ public class GameResourceBundle
 {
   private ResourceBundle bundle;
 
-  public  final static int DEFAULT_LOCALE = 0;
+  public  final static int RU_RU_LOCALE   = 0;
+  public  final static int EN_US_LOCALE   = 1;
+  public  final static int DEFAULT_LOCALE = RU_RU_LOCALE;
+
   private final Locale[] locales = new Locale[] { new Locale("ru", "ru"), new Locale("en", "us")};
   private int currentLocale = DEFAULT_LOCALE;
 

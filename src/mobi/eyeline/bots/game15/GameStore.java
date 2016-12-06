@@ -105,8 +105,9 @@ public class GameStore
     return loadGameData(REST_SESS_API_ROOT, SESS_GAME_VAR, subscriber);
   }
 
-  public static Game newGame(String subscriber, String sessionId) {
+  public static Game newGame(String subscriber, String sessionId, String gp_lang) {
     Game game = new Game(subscriber);
+    game.setGpLang(gp_lang);
     if (logger.isDebugEnabled()) {
       logger.debug("New game for '" + subscriber + "' SID=" + sessionId);
     }
