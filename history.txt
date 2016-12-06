@@ -2,5 +2,5 @@ Ver-0.0.1: makar
 2016-08-05: Alfa version
 
 Ver-0.0.2: makar
-2016-08-05: gp_lang parameter defines user language when user's game context is created
-
+2016-12-06: gp_lang parameter defines user language when user's game context is created
+2016-12-06: gp_back_url parameter defines back URL for GamePortal

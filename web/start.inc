@@ -8,6 +8,7 @@
     String user_id = request.getParameter("user_id");
     String action  = request.getParameter("action");
     String gp_lang = request.getParameter("gp_lang");
+    String gp_back_url = request.getParameter("gp_back_url");
     if (logger.isDebugEnabled()) {
         logger.debug("user_id: " + user_id + ", action: " + action + ", gp_lang: " + gp_lang + ". URI=" + request.getRequestURI());
     }
@@ -29,6 +30,7 @@
     }
 
     if (game != null) {
+      if (gp_back_url != null) game.setGpBackURL(gp_back_url);
       if ("new".equalsIgnoreCase(action)) {
         game.newGame();
 %>

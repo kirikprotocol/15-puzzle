@@ -47,7 +47,7 @@
     <link accesskey="4" pageId="index.jsp?action=lang">&#127758; <%= game.getNextText("lang")%></link>
   </navigation>
   <navigation>
-    <link accesskey="5" pageId="<%= GameStore.getAnotherGamesUrl()%>">&#127918; <%= game.getText("btn.another_games")%></link>
+    <link accesskey="5" pageId="<%= game.getGpBackURL()%>">&#127918; <%= game.getText("btn.another_games")%></link>
   </navigation>
   <%
   }

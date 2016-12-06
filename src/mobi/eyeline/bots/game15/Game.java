@@ -105,6 +105,14 @@ public class Game
                                                                GameResourceBundle.DEFAULT_LOCALE;
   }
 
+  private String gpBackURL = null;
+  public void setGpBackURL(String gpBackURL) {
+    this.gpBackURL = gpBackURL;
+  }
+  public String getGpBackURL() {
+    return (this.gpBackURL != null) ? gpBackURL : GameStore.getAnotherGamesUrl();
+  }
+
   public String getSubscriber() {
     return subscriber;
   }
