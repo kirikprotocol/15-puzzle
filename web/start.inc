@@ -10,7 +10,9 @@
     String gp_lang = request.getParameter("gp_lang");
     String gp_back_url = request.getParameter("gp_back_url");
     if (logger.isDebugEnabled()) {
-        logger.debug("user_id: " + user_id + ", action: " + action + ", gp_lang: " + gp_lang + ". URI=" + request.getRequestURI());
+        logger.debug("user_id: " + user_id + ", action: " + action +
+                     ", gp_lang: " + gp_lang + ", gp_back_url: " + gp_back_url +
+                     ". URI=" + request.getRequestURI());
     }
 
     Game game = null; boolean NEW_GAME = false;
@@ -29,8 +31,11 @@
         }
     }
 
-    if (game != null) {
+    if (game != null)
+    {
+      if (gp_lang != null) game.setGpLang(gp_lang);
       if (gp_back_url != null) game.setGpBackURL(gp_back_url);
+
       if ("new".equalsIgnoreCase(action)) {
         game.newGame();
 %>

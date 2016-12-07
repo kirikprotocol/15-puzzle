@@ -99,7 +99,7 @@ public class Game
     loadGameSess(sessData);
   }
 
-  protected void setGpLang(String gp_lang) {
+  public void setGpLang(String gp_lang) {
     this.subscriberLocale = ("RU".equalsIgnoreCase(gp_lang)) ? GameResourceBundle.RU_RU_LOCALE :
                             ("EN".equalsIgnoreCase(gp_lang)) ? GameResourceBundle.EN_US_LOCALE :
                                                                GameResourceBundle.DEFAULT_LOCALE;

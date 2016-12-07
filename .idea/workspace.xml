@@ -6,12 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6e5c38-4bd1-4446-bba9-4e61a79ad0bc" name="Default" comment="1) gp_back_url fix (&amp;amp; encoding)&#10;2) some cosmetics">
+    <list default="true" id="9b6e5c38-4bd1-4446-bba9-4e61a79ad0bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java" afterPath="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/game15_en.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/game15_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/game15_ru.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/game15_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history.txt" afterPath="$PROJECT_DIR$/history.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/start.inc" afterPath="$PROJECT_DIR$/web/start.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bot15.iws" />
@@ -48,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="history.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/history.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="540">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="9" column="60" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.inc" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.inc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/start.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="360" max-vertical-offset="930">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state vertical-scroll-proportion="1.1627907" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -71,8 +68,8 @@
       <file leaf-file-name="GameStore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/GameStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="4680">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="4680">
+              <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
               <folding>
                 <element signature="e#2374#2375#0" expanded="true" />
                 <element signature="e#2408#2409#0" expanded="true" />
@@ -130,12 +127,12 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="5160">
-              <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="5175">
+              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3188#3189#0" expanded="true" />
-                <element signature="e#3224#3225#0" expanded="true" />
+                <element signature="e#3185#3186#0" expanded="true" />
+                <element signature="e#3221#3222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,12 +194,12 @@
         <option value="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/GameStore.java" />
         <option value="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/GameResourceBundle.java" />
         <option value="$PROJECT_DIR$/version.properties" />
-        <option value="$PROJECT_DIR$/web/start.inc" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/game15_en.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/game15_ru.properties" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java" />
         <option value="$PROJECT_DIR$/history.txt" />
+        <option value="$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java" />
+        <option value="$PROJECT_DIR$/web/start.inc" />
       </list>
     </option>
   </component>
@@ -707,7 +704,7 @@
       <workItem from="1470305812300" duration="32830000" />
       <workItem from="1472459468459" duration="11978000" />
       <workItem from="1479458459506" duration="2029000" />
-      <workItem from="1480928579191" duration="10347000" />
+      <workItem from="1480928579191" duration="12326000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1470305888109</created>
@@ -811,11 +808,23 @@
       <option name="project" value="LOCAL" />
       <updated>1481020168277</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1) gp_back_url fix (&amp;amp; encoding)&#10;2) some cosmetic changes (icon &amp; title for &quot;another_games&quot;)">
+      <created>1481091774944</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1481091774944</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1) gp_back_url fix (&amp;amp; encoding)&#10;2) some cosmetic changes (icon &amp; title for &quot;another_games&quot;)">
+      <created>1481092463272</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1481092463272</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224237000" />
+    <option name="totallyTimeSpent" value="226216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="66" width="1730" height="989" extended-state="0" />
@@ -876,7 +885,8 @@
     <MESSAGE value="abonent &gt;&gt; user_id" />
     <MESSAGE value="gp_lang parameter added" />
     <MESSAGE value="gp_back_url parameter added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gp_back_url parameter added" />
+    <MESSAGE value="1) gp_back_url fix (&amp;amp; encoding)&#10;2) some cosmetic changes (icon &amp; title for &quot;another_games&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) gp_back_url fix (&amp;amp; encoding)&#10;2) some cosmetic changes (icon &amp; title for &quot;another_games&quot;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1244,25 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/GameStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="4680">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/start.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="360" max-vertical-offset="930">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/game15_en.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -1293,15 +1284,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java">
+    <entry file="file://$PROJECT_DIR$/version.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="5160">
-          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3188#3189#0" expanded="true" />
-            <element signature="e#3224#3225#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="60" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,18 +1308,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version.properties">
+    <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/GameStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="4680">
+          <caret line="109" column="15" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+          <folding>
+            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/history.txt">
+    <entry file="file://$PROJECT_DIR$/src/mobi/eyeline/bots/game15/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="540">
-          <caret line="9" column="60" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="5175">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3185#3186#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/start.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1627907" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding />
         </state>
       </provider>
