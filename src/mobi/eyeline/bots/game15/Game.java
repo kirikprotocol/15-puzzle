@@ -111,8 +111,9 @@ public class Game
   }
   public String getGpBackURL() {
     String url = (this.gpBackURL != null) ? this.gpBackURL : GameStore.getAnotherGamesUrl();
-    if (url != null) url.replace("&", "&amp;");
-    return url;
+    String processedUrl = null;
+    if (url != null) processedUrl = url.replace("&", "&amp;");
+    return processedUrl;
   }
 
   public String getSubscriber() {
