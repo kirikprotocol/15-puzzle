@@ -4,3 +4,7 @@ Ver-0.0.1: makar
 Ver-0.0.2: makar
 2016-12-06: gp_lang parameter defines user language when user's game context is created
 2016-12-06: gp_back_url parameter defines back URL for GamePortal
+
+Ver-0.0.2: makar
+2016-12-07: gp_back_url fix (&amp; encoding)
+2016-12-07: some cosmetic changes (icon & title for "another_games")

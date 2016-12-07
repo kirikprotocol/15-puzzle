@@ -110,7 +110,9 @@ public class Game
     this.gpBackURL = gpBackURL;
   }
   public String getGpBackURL() {
-    return (this.gpBackURL != null) ? gpBackURL : GameStore.getAnotherGamesUrl();
+    String url = (this.gpBackURL != null) ? this.gpBackURL : GameStore.getAnotherGamesUrl();
+    if (url != null) url.replace("&", "&amp;");
+    return url;
   }
 
   public String getSubscriber() {
