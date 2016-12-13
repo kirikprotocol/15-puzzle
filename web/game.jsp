@@ -68,10 +68,14 @@
   <div>
     &#128260; - <%= game.getText("play_again")%><br/>
     &#127942; - <%= game.getText("achievements")%><br/>
+    &#x2B05;  - <%= game.getText("return")%><br/>
   </div>
   <navigation>
     <link pageId="game.jsp?action=new" accesskey="*">&#128260; <%= game.getText("btn.play_again")%></link>
     <link pageId="game.jsp?action=achievements" accesskey="10">&#127942; <%= game.getText("btn.achievements")%></link>
+  </navigation>
+  <navigation>
+    <link pageId="<%= game.getGpBackURL()%>" accesskey="11">&#x2B05; <%= game.getText("btn.another_games")%></link>
   </navigation>
   <%
       if ("cell".equalsIgnoreCase(action)) {
